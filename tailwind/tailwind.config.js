@@ -15,6 +15,26 @@ module.exports = {
 	theme: {
 		// Extend the default Tailwind theme.
 		extend: {
+			fontFamily: {
+				'lato': ['lato', 'sans-serif']
+			},
+			fontSize: {
+				h1: ['3.562rem', { lineHeight: '120%', fontWeight: '300' }],
+				h2: ['3rem', { lineHeight: '120%', fontWeight: '300' }],
+				h3: ['2.5rem', { lineHeight: '120%', fontWeight: '300' }],
+				h4: ['2.062rem', { lineHeight: '120%', fontWeight: '300' }],
+				h5: ['1.750rem', { lineHeight: '120%', fontWeight: '300' }],
+				xl: ['1.438rem', '120%'],
+				'xl-b': ['1.438rem', { lineHeight: '120%', fontWeight: '700' }],
+				m: ['1.188rem', '120%'],
+				'm-b': ['1.188rem', { lineHeight: '120%', fontWeight: '700' }],
+				body: ['1rem', '120%'],
+				'body-b': ['1rem', { lineHeight: '120%', fontWeight: '700' }],
+				s: ['0.812rem', '120%'],
+				's-b': ['0.812rem', { lineHeight: '120%', fontWeight: '700' }],
+				xs: ['0.688rem', '120%'],
+				'xs-b': ['0.688rem', { lineHeight: '120%', fontWeight: '700' }],
+			},
 			colors: {
 				lightGreen: {
 					900: '#82C100',
@@ -38,6 +58,9 @@ module.exports = {
 					300: '#253700',
 					200: '#182400',
 					100: '#0B1000'
+				},
+				lightBrown: {
+					1000: '#593911',
 				}
 			}
 		},
