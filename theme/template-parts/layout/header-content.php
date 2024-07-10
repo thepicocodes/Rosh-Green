@@ -23,10 +23,10 @@
 						<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368" />
 					</svg>
 				</a>
-				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-min px-2 py-4 md:py-0">AVATR</a></li>
-				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-min px-2 py-4 md:py-0">Productos</a></li>
-				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-min px-2 py-4 md:py-0">¿Quienes somos?</a></li>
-				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-min px-2 py-4 md:py-0">Contacto</a></li>
+				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-auto px-2 py-4 md:py-0">AVATR</a></li>
+				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-auto px-2 py-4 md:py-0">Productos</a></li>
+				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-auto px-2 py-4 md:py-0">¿Quienes somos?</a></li>
+				<li class="w-full md:w-fit"><a href="#" class="inline-block md:inline w-full md:w-auto px-2 py-4 md:py-0">Contacto</a></li>
 			</ul>
 		</nav>
 
