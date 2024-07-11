@@ -15,6 +15,7 @@ const nav = document.getElementById('navigation');
 
 // open nav function
 navbarToggler.onclick = function (e) {
+  e.preventDefault();
   nav.classList.add('block');
   nav.classList.remove('hidden');
 };
@@ -24,6 +25,19 @@ closeNavBtn.onclick = function (e) {
   nav.classList.add('hidden');
   nav.classList.remove('block');
 };
+
+document.addEventListener('scroll', (e) => {
+  const navbar = document.getElementById('navbar');
+  if (!navbar) return;
+
+  if (window.scrollY > 70) {
+    navbar.classList.remove('bg-white/75');
+    navbar.classList.add('bg-white');
+  } else {
+    navbar.classList.remove('bg-white');
+    navbar.classList.add('bg-white/75');
+  }
+});
 
 // features section
 

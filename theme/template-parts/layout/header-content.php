@@ -10,7 +10,7 @@
 
 ?>
 
-<header id="masthead" class="border border-[#E4E4E4] w-full bg-white/75 py-2 fixed left-0 z-50 <?php echo is_user_logged_in() ? 'top-8' : 'top-0' ?>">
+<header id="navbar" class="group border border-[#E4E4E4] w-full py-2 fixed left-0 z-50 bg-white/75 <?php echo is_user_logged_in() ? 'top-8' : 'top-0' ?>">
 	<div class="w-full max-w-screen-xl mx-auto px-5 flex flex-row items-center justify-between">
 		<a href="#" class="block">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/rosh-greens_color.png" alt="Rosh & Green logo" class="">
