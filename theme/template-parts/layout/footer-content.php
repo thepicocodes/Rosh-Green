@@ -12,10 +12,10 @@
 
 <footer class="bg-lightBrown-1000 font-lato">
   <div class="w-full max-w-screen-xl mx-auto px-5 pt-12 md:pt-24">
-    <div class="flex flex-col md:flex-row gap-x-16 gap-y-5">
+    <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-x-16 gap-y-5">
       <img src="<?php echo get_template_directory_uri(); ?>/images/rosh-greens_blanco.png" alt="Rosh & Green logo" class="w-min md:w-auto h-[125px]">
 
-      <div class="w-full grid grid-cols-1 md:grid-cols-3 gap-y-12 text-white">
+      <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-white">
         <ul class="flex flex-col gap-y-2.5">
           <h4 class="text-sm font-extrabold uppercase">Secciones</h4>
           <li><a href="">Avatr</a></li>

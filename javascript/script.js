@@ -24,3 +24,35 @@ closeNavBtn.onclick = function (e) {
   nav.classList.add('hidden');
   nav.classList.remove('block');
 };
+
+// features section
+
+// document.addEventListener('DOMContentLoaded', function () {
+//   const tabs = document.getElementById('tab');
+//   const contents = document.getElementById('features-content-div');
+
+//   tabs.forEach(tab => {
+//     tab.addEventListener('click', function () {
+//       tabs.forEach(t => t.classList.remove('active'));
+//       contents.forEach(c => c.classList.remove('active'));
+
+//       this.classList.add('active');
+//       document.getElementById(this.getAttribute('data-tab')).classList.add('active');
+//     });
+//   });
+// });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.content div');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', function () {
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => c.classList.remove('active'));
+
+      this.classList.add('active');
+      document.getElementById(this.getAttribute('data-tab')).classList.add('active');
+    });
+  });
+});

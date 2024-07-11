@@ -19,7 +19,7 @@ module.exports = {
 				'lato': ['lato', 'sans-serif']
 			},
 			fontSize: {
-				h1: ['3.562rem', { lineHeight: '120%', fontWeight: '300' }],
+				h1: ['2.375rem', { lineHeight: '120%', fontWeight: '500' }],
 				h2: ['3rem', { lineHeight: '120%', fontWeight: '300' }],
 				h3: ['2.5rem', { lineHeight: '120%', fontWeight: '300' }],
 				h4: ['2.062rem', { lineHeight: '120%', fontWeight: '300' }],
@@ -36,6 +36,7 @@ module.exports = {
 				'xs-b': ['0.688rem', { lineHeight: '120%', fontWeight: '700' }],
 			},
 			colors: {
+				'transparent-white': 'rgba(245, 250, 234, 1)',
 				lightGreen: {
 					900: '#82C100',
 					800: '#8FC71A',
@@ -59,8 +60,15 @@ module.exports = {
 					200: '#182400',
 					100: '#0B1000'
 				},
+				lightBlue: {
+					900: '#070F14',
+				},
 				lightBrown: {
 					1000: '#593911',
+					100: '#F1EFEB',
+				},
+				gray: {
+					100: '#111111',
 				}
 			}
 		},
