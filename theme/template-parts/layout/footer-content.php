@@ -13,7 +13,7 @@
 <footer class="bg-lightBrown-1000 font-lato">
   <div class="w-full max-w-screen-xl mx-auto px-5 pt-12 md:pt-24">
     <div class="grid grid-cols-1 md:grid-cols-[auto_1fr] gap-x-16 gap-y-5">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/rosh-greens_blanco.png" alt="Rosh & Green logo" class="w-min md:w-auto h-[125px]">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/rosh-greens_blanco.png" alt="Rosh & Green logo" class="md:w-auto h-24 md:h-[125px]">
 
       <div class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-white">
         <ul class="flex flex-col gap-y-2.5">

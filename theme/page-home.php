@@ -12,10 +12,10 @@ get_header();
 <section class="h-screen bg-[url('images/img_01.png')] bg-cover bg-center bg-no-repeat">
   <div class="w-full max-w-screen-xl mx-auto">
     <div class="w-full max-w-[535px] h-screen py-5 px-5 flex flex-col">
-      <div class="mt-36 md:mt-52">
+      <div class="mt-32 md:mt-52">
         <h1 class="text-2xl md:text-h1">Descubre el <span class="font-semibold">Futuro de la Movilidad </span>Dominicana</h1>
         <h2 class="mt-4 font-light text-lg md:text-xl text-[#050100]">Avatr 11 - El primer SUV totalmente eléctrico</h2>
-        <a href="" class="rounded w-fit inline-flex flex-row items-center mt-6 py-2.5 px-8 gap-x-2 text-white text-s-b md:text-body-b bg-lightBrown-1000">
+        <a href="" class="rounded w-fit inline-flex flex-row items-center mt-6 py-2.5 px-8 gap-x-2 text-white text-s-b md:text-body-b bg-darkGreen-900 hover:bg-lightBrown-1000">
           Conoce más
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-4 fill-white"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
@@ -45,7 +45,7 @@ get_header();
       <p class="mt-4">
         Además, nos preocupamos por contar con un personal altamente capacitado y comprometido con la visión de la compañía, como empresa, estamos claros de que la asesoría y acompañamiento antes, durante y después de la compra, es prioridad.
       </p>
-      <a href="" class="rounded inline-flex items-center mt-10 py-2.5 px-8 gap-x-2 text-white font-bold bg-darkGreen-900">
+      <a href="" class="rounded inline-flex items-center mt-10 py-2.5 px-8 gap-x-2 text-white font-bold bg-darkGreen-900 hover:bg-lightBrown-1000">
         Conoce nuestras soluciones
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-4 fill-white"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
           <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
@@ -96,7 +96,7 @@ get_header();
   <div class="rounded-2xl bg-black">
     <div class="py-10 md:py-20 px-5 flex flex-col md:flex-row items-center justify-center gap-11 text-white">
       <div class="border-b-4 border-white pb-9">
-        <h3 class="text-h3 font-semibold">Garantía Full</h3>
+        <h3 class="text-3xl md:text-h3 font-semibold">Garantía Full</h3>
       </div>
       <p class="w-full max-w-[470px] font-normal">
         Ofrecemos una garantía completa en todas nuestras piezas y servicios,
@@ -109,37 +109,7 @@ get_header();
 
 <section class="mt-24">
   <img src="<?php echo get_template_directory_uri(); ?>/images/img_06.png" alt="BM Autobuses logo" class="block w-full">
-  <!-- <div>
-    <div class="flex flex-row justify-center">
-      <div id="tab" class="px-2 py-5 active cursor-pointer" data-tab="tab1">Máxima autonomía</div>
-      <div id="tab" class="px-2 py-5 cursor-pointer" data-tab="tab2">Conducción inteligente</div>
-      <div id="tab" class="px-2 py-5 cursor-pointer" data-tab="tab3">Garantía en piezas y servicios</div>
-      <div id="tab" class="px-2 py-5 cursor-pointer" data-tab="tab4">Excelente servicio postventa</div>
-    </div>
-
-    <div class="features-content">
-      <div id="features-content-div" class="active">
-        <p>Máxima autonomía</p>
-      </div>
-      <div id="features-content-div" class="">
-        <p>Contenido para Conducción inteligente.</p>
-      </div>
-      <div id="features-content-div" class="">
-        <p>Avatar en RD ofrece una garantía completa en motores y baterías por 8 años. Además, todos los mantenimientos están cubiertos durante la vigencia de la garantía. Nuestro servicio postventa es excepcional y personalizado, disponible las 24 horas para consultas y agendar servicios.</p>
-      </div>
-      <div id="features-content-div" class="">
-        <p>Contenido para Excelente servicio postventa.</p>
-      </div>
-    </div>
-  </div> -->
   <div class="w-full max-w-[1130px] mt-16 mx-auto px-5">
-    <!-- <ul class="border-b border-[#C1C1C1] w-full flex flex-row items-center gap-x-5 md:gap-x-10 text-sm md:text-m overflow-auto md:overflow-x-hidden no-scrollbar">
-      <li class="tab active" data-tab="tab1"><span class="block w-max md:w-fit">Máxima autonomía</span></li>
-      <li class="tab" data-tab="tab2"><span class="block w-max md:w-fit">Conducción inteligente</span></li>
-      <li class="tab" data-tab="tab3"><span class="block w-max md:w-fit">Garantía en piezas y servicios</span></li>
-      <li class="tab" data-tab="tab4"><span class="block w-max md:w-fit">Excelente servicio postventa</span></li>
-    </ul> -->
-
     <div class="border-b border-[#C1C1C1] w-full mt-2 flex flex-row items-center gap-x-5 md:gap-x-10 text-sm md:text-m overflow-auto md:overflow-hidden no-scrollbar">
       <div class="tab active cursor-pointer" data-tab="tab1"><span class="block w-max md:w-fit pb-2">Máxima autonomía</span></div>
       <div class="tab cursor-pointer" data-tab="tab2"><span class="block w-max md:w-fit pb-2">Conducción inteligente</span></div>
@@ -187,7 +157,7 @@ get_header();
           <label for="Name" class="text-body-b">Número de teléfono:</label>
           <div class="flex flex-col md:flex-row md:items-center gap-x-10">
             <input type="text" placeholder="Cuál es tú teléfono" name="Nombre" class="rounded border-1 border-[#EAEAEA] w-full h-[60px] mt-1 p-5 outline-none">
-            <button class="rounded w-fit h-[60px] inline-flex flex-row gap-x-2 items-center mt-5 md:mt-0 py-4 px-8 bg-darkGreen-900 text-white text-body-b md:text-xl-b">
+            <button class="rounded w-fit h-[60px] inline-flex flex-row gap-x-2 items-center mt-5 md:mt-0 py-4 px-8 text-white text-body-b md:text-xl-b bg-darkGreen-900 hover:bg-lightBrown-1000">
               Enviar
               <span>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-4 fill-white"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

@@ -17,7 +17,7 @@
 		</a>
 
 		<nav id="navigation" class="hidden md:block absolute md:static w-full md:w-auto h-screen md:h-auto py-4 top-0 left-0 bg-white md:bg-inherit">
-			<ul class="w-full flex flex-col md:flex-row items-center gap-x-1 gap-y-5 text-center text-lg md:text-base">
+			<ul class="w-full flex flex-col md:flex-row items-center gap-x-1 gap-y-5 text-center text-2xl md:text-base">
 				<a href="#" class="close block cursor-pointer self-end text-3xl md:hidden p-2.5 <? is_user_logged_in() ? 'pt-6' : 'pt-0' ?>">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-12" viewBox="0 0 512 512">
 						<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M368 368L144 144M368 144L144 368" />
