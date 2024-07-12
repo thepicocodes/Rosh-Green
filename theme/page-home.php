@@ -107,31 +107,68 @@ get_header();
   </div>
 </div>
 
-<section class="mt-24">
-  <img src="<?php echo get_template_directory_uri(); ?>/images/img_06.png" alt="BM Autobuses logo" class="block w-full">
-  <div class="w-full max-w-[1130px] mt-16 mx-auto px-5">
-    <div class="border-b border-[#C1C1C1] w-full mt-2 flex flex-row items-center gap-x-5 md:gap-x-10 text-sm md:text-m overflow-auto md:overflow-hidden no-scrollbar">
-      <div class="tab active cursor-pointer" data-tab="tab1"><span class="block w-max md:w-fit pb-2">Máxima autonomía</span></div>
-      <div class="tab cursor-pointer" data-tab="tab2"><span class="block w-max md:w-fit pb-2">Conducción inteligente</span></div>
-      <div class="tab cursor-pointer" data-tab="tab3"><span class="block w-max md:w-fit pb-2">Garantía en piezas y servicios</span></div>
-      <div class="tab cursor-pointer" data-tab="tab4"><span class="block w-max md:w-fit pb-2">Excelente servicio postventa</span></div>
+<!--  -->
+<section class="w-full mt-24 mx-auto">
+  <div class="car-selector">
+    <div class="swiper features-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" data-feature-name="Máxima autonomía">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/img_06.png" alt="BM Autobuses logo" class="block w-full">
+        </div>
+        <div class="swiper-slide" data-feature-name="Conducción inteligente">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/img_06.png" alt="BM Autobuses logo" class="block w-full">
+        </div>
+        <div class="swiper-slide" data-feature-name="Garantía en piezas y servicios">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/img_06.png" alt="BM Autobuses logo" class="block w-full">
+        </div>
+        <div class="swiper-slide" data-feature-name="Excelente servicio postventa">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/img_06.png" alt="BM Autobuses logo" class="block w-full">
+        </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
 
-    <div class="content text-center text-gray-100">
-      <div id="tab1" class="active">
-        <p>Contenido para Máxima autonomía.</p>
+    <div class="w-full max-w-[1130px] mt-16 mx-auto px-5">
+      <div class="border-b border-[#C1C1C1] w-full mt-2 flex flex-row items-center gap-x-5 md:gap-x-10 text-sm md:text-m overflow-auto md:overflow-hidden no-scrollbar">
+        <div class="features tab active cursor-pointer" data-slide-index="0">
+          <h5 class="block w-max md:w-fit pb-2">Máxima autonomía</h5>
+        </div>
+        <div class="features tab cursor-pointer" data-slide-index="1">
+          <h5 class="block w-max md:w-fit pb-2">Conducción inteligente</h5>
+        </div>
+        <div class="features tab cursor-pointer" data-slide-index="2">
+          <h5 class="block w-max md:w-fit pb-2">Garantía en piezas y servicios</h5>
+        </div>
+        <div class="features tab cursor-pointer" data-slide-index="3">
+          <h5 class="block w-max md:w-fit pb-2">Excelente servicio postventa</h5>
+        </div>
       </div>
-      <div id="tab2">
-        <p>Contenido para Conducción inteligente.</p>
-      </div>
-      <div id="tab3" class="">
-        <p>Avatar en RD ofrece una garantía completa en motores y baterías por 8 años. Además, todos los mantenimientos están cubiertos durante la vigencia de la garantía. Nuestro servicio postventa es excepcional y personalizado, disponible las 24 horas para consultas y agendar servicios.</p>
-      </div>
-      <div id="tab4">
-        <p>Contenido para Excelente servicio postventa.</p>
+      <!-- feature description -->
+      <div class="mt-10 text-center">
+        <div data-slide-index="0" class="feature">
+          <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum, enim?</span>
+        </div>
+        <div data-slide-index="1" class="feature">
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, praesentium!</span>
+        </div>
+        <div data-slide-index="2" class="feature">
+          <span>
+            Avatr en RD ofrece una garantía completa en motores y baterías por 8 años. Además,
+            todos los mantenimientos están cubiertos durante la vigencia de la garantía. Nuestro
+            servicio postventa es excepcional y personalizado, disponible las 24 horas para consultas
+            y agendar servicios.
+          </span>
+        </div>
+        <div data-slide-index="3" class="feature">
+          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, laboriosam?</span>
+        </div>
       </div>
     </div>
   </div>
+
 </section>
 
 <section class="mt-24 flex justify-end bg-[url('images/img_07.png')] bg-cover bg-center bg-no-repeat">

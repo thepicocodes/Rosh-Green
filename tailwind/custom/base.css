@@ -26,19 +26,3 @@ body {
 			scrollbar-width: none;  /* Firefox */
 }
 }
-
-.tab.active {
-	border-bottom: 2px solid #111111;
-}
-
-.content {
-	margin-top: 40px;
-}
-
-.content div {
-	display: none;
-}
-
-.content .active {
-	display: block;
-}

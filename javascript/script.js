@@ -8,6 +8,10 @@
  * For esbuild documentation, please see:
  * https://esbuild.github.io/
  */
+import Swiper from 'swiper';
+import { Navigation } from 'swiper/modules';
+Swiper.use([Navigation]);
+
 
 const navbarToggler = document.getElementById('navbar-toggler');
 const closeNavBtn = document.querySelector('.close');
@@ -69,4 +73,66 @@ document.addEventListener('DOMContentLoaded', function () {
       document.getElementById(this.getAttribute('data-tab')).classList.add('active');
     });
   });
+});
+
+//slider features
+// import Swiper bundle with all modules installed
+document.addEventListener('DOMContentLoaded', () => {
+  const swiper = new Swiper('.features-swiper', {
+    // Optional parameters
+    slidesPerView: 1,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    on: {
+      slideChange: function () {
+        updateActiveFeature();
+        updateActiveTab();
+      }
+    }
+  });
+
+  const features = document.querySelectorAll('.features');
+  const itemFeature = document.querySelectorAll('.feature');
+  const tabs = document.querySelectorAll('.tab');
+
+  function updateActiveFeature() {
+    itemFeature.forEach(item => {
+      item.classList.remove('active');
+    });
+    const activeSlideIndex = swiper.realIndex;
+    itemFeature[activeSlideIndex].classList.add('active');
+  }
+
+  features.forEach(feature => {
+    feature.addEventListener('click', () => {
+      const slideIndex = feature.getAttribute('data-slide-index');
+      swiper.slideToLoop(slideIndex);
+      updateActiveFeature();
+    });
+  });
+
+  function updateActiveTab() {
+    tabs.forEach(tab => {
+      tab.classList.remove('active');
+    });
+    const activeSlideIndex = swiper.realIndex;
+    tabs[activeSlideIndex].classList.add('active');
+  }
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const slideIndex = tab.getAttribute('data-slide-index');
+      swiper.slideTo(slideIndex);
+      updateActiveTab();
+    });
+  });
+  // Initial update
+  updateActiveTab();
+  // Initial update
+  updateActiveFeature();
 });
