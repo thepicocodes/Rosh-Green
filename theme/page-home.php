@@ -168,7 +168,6 @@ get_header();
       </div>
     </div>
   </div>
-
 </section>
 
 <section class="mt-24 flex justify-end bg-[url('images/img_07.png')] bg-cover bg-center bg-no-repeat">
