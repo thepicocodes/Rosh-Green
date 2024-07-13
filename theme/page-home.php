@@ -4,7 +4,7 @@
  *
  * Template Name: Inicio
  *
- * @package El_tizón_deportivo
+ * @package Rosh_Green
  */
 get_header();
 ?>
